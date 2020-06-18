@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\loader">
+      <UniqueIdentifier>{8451182a-aa30-4341-a3bb-042b557aeb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\loader">
+      <UniqueIdentifier>{dedf4388-9712-4e3c-8149-cf42e06bb822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\entity">
+      <UniqueIdentifier>{e17c6800-87e1-40ec-8494-83df5eb15876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\entity">
+      <UniqueIdentifier>{6624ecd0-c059-4545-b506-3fab48170577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\util">
+      <UniqueIdentifier>{a5a53dc0-668d-48d7-a70c-3edc60638dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\util">
+      <UniqueIdentifier>{8cab2adf-3fd3-4c15-bca9-e72f88e37289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\input">
+      <UniqueIdentifier>{a4495b9f-65e0-4467-96f3-da6dde2dc209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\input">
+      <UniqueIdentifier>{0f07a5f9-d845-4711-af08-e82a457936e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\gui">
+      <UniqueIdentifier>{f00da9f9-9ad7-44c7-b42a-a131fb3900c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\gui">
+      <UniqueIdentifier>{813736d0-4a66-477c-a937-163051b2fd30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Файлы исходного кода\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureObject.cpp">
+      <Filter>Файлы исходного кода\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsCounter.cpp">
+      <Filter>Файлы исходного кода\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObject.cpp">
+      <Filter>Файлы исходного кода\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Файлы исходного кода\input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Файлы исходного кода\input</Filter>
+    </ClCompile>
+    <ClCompile Include="PathHelper.cpp">
+      <Filter>Файлы исходного кода\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Файлы исходного кода\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TinyThread++-1.1\source\tinythread.cpp">
+      <Filter>Файлы исходного кода\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Файлы исходного кода\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Заголовочные файлы\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureObject.h">
+      <Filter>Заголовочные файлы\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsCounter.h">
+      <Filter>Заголовочные файлы\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>Заголовочные файлы\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Заголовочные файлы\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Заголовочные файлы\input</Filter>
+    </ClInclude>
+    <ClInclude Include="PathHelper.h">
+      <Filter>Заголовочные файлы\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Заголовочные файлы\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Заголовочные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
